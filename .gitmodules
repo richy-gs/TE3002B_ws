@@ -1,3 +1,6 @@
 [submodule "src/module_herman/DJITelloPy"]
 	path = src/module_herman/DJITelloPy
 	url = https://github.com/damiafuentes/DJITelloPy.git
+[submodule "src/module_herman/Robomaster-TT-Activities"]
+	path = src/module_herman/Robomaster-TT-Activities
+	url = https://github.com/GusMtz787/Robomaster-TT-Activities.git
