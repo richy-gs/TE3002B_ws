@@ -28,6 +28,7 @@ setup(
         "console_scripts": [
             "image_subscriber = ros2_bridge_sim.image_subscriber:main",
             "teleop_controller = ros2_bridge_sim.teleop_controller:main",
+            "controller_with_image = ros2_bridge_sim.controller_with_cam:main",
         ],
     },
 )
