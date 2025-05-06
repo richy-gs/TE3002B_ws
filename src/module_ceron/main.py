@@ -18,3 +18,6 @@ result, detectionState, auxPackets = sim.readVisionSensor(sensor1Handle)
 print("Resultado de lectura:", result)
 print("Estado de detección:", detectionState)
 print("Paquetes auxiliares:", auxPackets)
+
+
+# Add more details
