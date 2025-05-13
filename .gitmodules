@@ -7,3 +7,6 @@
 [submodule "src/MSRpuzzlebot_control"]
 	path = src/MSRpuzzlebot_control
 	url = https://github.com/MSR325/MSRpuzzlebot_control.git
+[submodule "src/MSRpuzzlebot_vision"]
+	path = src/MSRpuzzlebot_vision
+	url = https://github.com/MSR325/MSRpuzzlebot_vision.git
