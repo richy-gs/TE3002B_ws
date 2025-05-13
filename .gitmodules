@@ -4,3 +4,6 @@
 [submodule "src/module_herman/Robomaster-TT-Activities"]
 	path = src/module_herman/Robomaster-TT-Activities
 	url = https://github.com/GusMtz787/Robomaster-TT-Activities.git
+[submodule "src/MSRpuzzlebot_control"]
+	path = src/MSRpuzzlebot_control
+	url = https://github.com/MSR325/MSRpuzzlebot_control.git
