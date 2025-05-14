@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-# import time
+import time
 from djitellopy import Tello
 
 # Inicializar dron
@@ -24,8 +24,8 @@ frame_center_x = 480 // 2
 frame_center_y = 360 // 2
 
 # Takeoff
-# tello.takeoff()
-# time.sleep(2)
+tello.takeoff()
+time.sleep(1)
 
 try:
     while True:
@@ -56,7 +56,8 @@ try:
 
             print("yawSpeed:", yaw_speed, "UpDownSpeed:", up_down_speed)
 
-            # tello.send_rc_control(0, 0, up_down_speed, yaw_speed)
+            tello.send_rc_control(0, 0, int(up_down_speed), int(yaw_speed))
+
 
             prev_error_yaw = error_yaw
             prev_error_z = error_z
@@ -67,7 +68,7 @@ try:
             cv2.putText(frame, "Tracking green", (10, 30),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 0, 255), 2)
         else:
-            # tello.send_rc_control(0, 0, 0, 0)
+            tello.send_rc_control(0, 0, 0, 0)
             print("No green detected.")
 
         cv2.imshow("Tracking", frame)
@@ -78,8 +79,8 @@ except KeyboardInterrupt:
     print("Landing...")
 
 finally:
-    # tello.send_rc_control(0, 0, 0, 0)
-    # time.sleep(1)
-    # tello.land()
+    tello.send_rc_control(0, 0, 0, 0)
+    time.sleep(1)
+    tello.land()
     tello.streamoff()
     cv2.destroyAllWindows()
