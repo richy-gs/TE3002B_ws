@@ -10,3 +10,6 @@
 [submodule "src/MSRpuzzlebot_vision"]
 	path = src/MSRpuzzlebot_vision
 	url = https://github.com/MSR325/MSRpuzzlebot_vision.git
+[submodule "src/module_munoz/3D-SemiDeformable-ObjectTracking"]
+	path = src/module_munoz/3D-SemiDeformable-ObjectTracking
+	url = https://github.com/GustavoDLRA/3D-SemiDeformable-ObjectTracking.git
