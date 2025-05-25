@@ -1,1 +1,21 @@
-src/mini-retos/a.pdf
+# Ignore build artifacts directory
+build/
+# Ignore runtime logs
+log/
+# Ignore installation files
+install/
+
+# Ignore CoppeliaSim simulation files in module_ceron
+src/module_ceron/CoppeliaSim/
+# Ignore Server2LinuxMono binaries in module_ceron
+src/module_ceron/Server2LinuxMono/
+# Ignore Windows executable for simulation in module_ceron
+src/module_ceron/SimExeWin/
+
+# Ignore all __pycache__ directories anywhere in the project
+__pycache__/
+# Ignore Python byte-compiled files
+*.py[cod]
+# Ignore VS Code workspace settings
+.vscode/
+
