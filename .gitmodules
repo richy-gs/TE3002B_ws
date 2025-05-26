@@ -15,4 +15,4 @@
 	url = https://github.com/GustavoDLRA/3D-SemiDeformable-ObjectTracking.git
 [submodule "src/module_munoz/Azure_Kinect_ROS_Driver"]
 	path = src/module_munoz/Azure_Kinect_ROS_Driver
-	url = https://github.com/microsoft/Azure_Kinect_ROS_Driver.git
+	url = https://github.com/microsoft/Azure_Kinect_ROS_Driver/tree/humble
