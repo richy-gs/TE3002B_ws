@@ -12,7 +12,7 @@ me.streamon()
 # drone takeoff
 me.takeoff()
 me.send_rc_control(0, 0, 25, 0)
-time.sleep(3)
+time.sleep(2)
 
 w, h = 360, 240
 fbRange = [2200, 3600]
